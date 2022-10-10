@@ -4,15 +4,8 @@ import java.awt.Font;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.print.*;
-/**
- * 打印功能对话框
- * @author Tyrion Lannister
- */
-public class Print {
-    /**
-     * 打印函数
-     */
 
+public class print {
     public static class PrintClass implements Printable {
 
         @Override
@@ -60,7 +53,7 @@ public class Print {
         }
     }
 
-    public Print() {
+    public print() {
         //new一个book
         Book book = new Book();
         //设置成竖打
